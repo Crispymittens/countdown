@@ -39,7 +39,7 @@ int main()
 	
 	while (!done) {
 
-	for (int i = 0; i <= 8; i++) {
+	for (int i = 0; i < 8; i++) {
 		int vrandom = rand() % 4;
 		int crandom = rand() % 20;
 
@@ -73,7 +73,7 @@ int main()
 	}
 	cout << "Your final letters altogether are: " << endl;
 	//Programme has ran the for loop 8 times now gather all letters from the array and print them to the output with ANOTHER for loop
-	for (int all = 0; all <= 8; all++) {
+	for (int all = 0; all < 8; all++) {
 		cout << allLetters[all];
 	}
 	cout << endl;
